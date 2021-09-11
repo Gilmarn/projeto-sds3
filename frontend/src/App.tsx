@@ -10,7 +10,7 @@ import NavBar from "components/NavBar";
 function App() {
   return (
     <>
-      <NavBar />
+      <NavBar/>
       <div className="container">
         <h1 className="text-primary py-3">Dashboard de vendas</h1>
 
