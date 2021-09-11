@@ -1,9 +1,6 @@
 package com.devsuperior.dsvendas.dto;
 
 import java.io.Serializable;
-import java.util.List;
-
-import org.springframework.data.jpa.repository.Query;
 
 import com.devsuperior.dsvendas.entities.Seller;
 
@@ -59,6 +56,12 @@ public class SaleSuccessDTO implements Serializable{
 
 	public void setDeals(Long deals) {
 		this.deals = deals;
+	}
+
+
+	public SaleSuccessDTO(String sellerName) {
+		super();
+		this.sellerName = sellerName;
 	}
 
 
